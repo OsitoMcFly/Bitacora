@@ -1,0 +1,187 @@
+main{
+    width: 1366px;
+    height: 9200px;
+    background-color: brown;
+
+}
+@font-face {
+    font-family: flower;
+    src: url(../fuentes/IndieFlower-Regular.ttf);
+}
+@font-face {
+    font-family: shadow;
+    src: url(../fuentes/ShadowsIntoLight-Regular.ttf);
+}
+@font-face {
+    font-family: donarbold;
+    src: url(../fuentes/AmaticSC-Bold.ttf);
+}
+@font-face {
+    font-family: donarregular;
+    src: url(../fuentes/AmaticSC-Regular.ttf);
+}
+@font-face {
+    font-family: gloria;
+    src: url(../fuentes/GloriaHallelujah-Regular.ttf);
+   
+}
+@font-face {
+    font-family: give;
+    src: url(../fuentes/GiveYouGlory-Regular.ttf);
+}
+header{
+    height: 200px;
+    width: 1366px;
+    background-color: #ffffff;
+}
+
+nav{
+    height: 50px;
+    width: 1366px;
+    background-color: #A9DBC7;
+    position: sticky;
+    top: 0;
+    z-index: 1 ;
+    box-shadow: 0px 5px 8px rgb(96, 81, 105);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    transition: .5s;
+    font-family: give;
+    color: rgb(54, 54, 51);
+    
+    }
+    nav a:hover{
+        transform: scale(1.3);
+        background-color: rgb(39, 30, 38);
+       color: rgb(255, 255, 255);
+    }
+section{
+    width: 1366px;
+    height: 1453px;
+    background-color: #BFA9DB;
+background-image: url(../imagenes/Background\ 003.jpg);
+
+}
+h2{
+    font-family: give;
+    margin-left: 25px;
+    color: rgb(31, 17, 36);
+}
+h1{
+    font-family: give;
+    margin-left: 50px;
+    font-size: 50px;
+    color: #3a1e2f;
+}
+section .titulo{
+    width: 1366px;
+    height: 220px;
+background-color: #DB8AA4;
+float: left;
+box-shadow: 0px 5px 8px rgb(96, 81, 105);
+background-image: url(../imagenes/fondo3.jpg);
+}
+
+
+section .izquierda{
+width: 550px;
+height: 850px;
+background-color: #AFA9DB5e;
+float: left;
+margin-left: 38px;
+margin-top: 38px;
+box-shadow: 5px 5px 10px rgb(60, 28, 73);
+}
+.izquierda .texto1{
+width: 450px;
+height: 680px;
+background-color: #dba9b4ab;
+float: left;
+margin-left: 25px;
+padding: 25px;
+font-family: flower;
+text-align: justify;
+}
+section .derecha{
+width: 700px;
+height: 850px;
+background-color: #afa9db5e;
+float: left;
+margin-left: 38px;
+margin-top: 38px;
+box-shadow: 5px 5px 10px rgb(60, 28, 73);
+}
+.derecha .texto2{
+width: 600px;
+height: 350px;
+background-color: #DBA9B4ab;
+float: left;
+margin-left: 25px;
+padding: 25px;
+font-family: flower;
+text-align: justify;
+}
+.derecha .imagen{
+width: 550px;
+height: 275px;
+
+float: left;
+margin-left: 50px;
+margin-top: 25px;
+padding: 25px;
+
+}
+#triada{
+    margin-left: 20px;
+}
+#jerarquia{
+    margin-left: 137px;
+}
+#tabla{
+    margin-left: 15px;
+}
+
+section .abajo{
+width: 1366px;
+height: 320px;
+
+    float: left;
+}
+.abajo .texto3{
+width: 1235px;
+height: 175px;
+background-color: #dba9b4da;
+margin-left: 38px;
+float: left;
+padding: 25px;
+box-shadow: 5px 5px 10px rgb(60, 28, 73);
+font-family: flower;
+font-size: 20px;
+}
+.resumen{
+    color: white;
+    margin-left: 50px;
+}
+footer{
+    width: 1366px;
+    height: 232px;
+    background-color: rgb(39, 30, 38);
+    float: left;
+}
+footer #nombre{
+width: 700px;
+height: 100px;
+
+color: white;
+padding: 25px;
+float: left;
+margin-left: 25px;
+margin-top: 25px;
+font-family: donarregular;
+}

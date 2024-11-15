@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+
+<body>
+    <main>
+        <header> <img src="imagenes/logo1.png " height="200" alt=""> <img src="imagenes/nombre.png" height="200" alt="">
+        </header>
+        <nav>
+            <a href="#FORMULARIOS">Formularios</a><a href="#color">Color</a><a href="#especificidad">Especificidad</a><a
+                href="#tablas">Tablas</a><a href="#header">Header</a> <a href="#footer">Footer</a>
+        </nav>
+        <section>
+            <div class="titulo">
+                <h1 id="FORMULARIOS">FORMULARIOS</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>APUNTES</h2>
+                <div class="texto1">
+                    <h3>El elemento "form"</h3>
+                    <p>El elemento HTML "form" define un formulario que se utiliza para recopilar información que el
+                        usuario escribe.</p>
+                    <h3>El elemento "input"</h3>
+                    <p>El elemento "input" es el más importante en un formulario. Puede ser mostrado de diferentes
+                        formas dependiendo del atriputo "type".</p>
+                    <h3>Agrupar campos con fieldset.</h3>
+                    <p>El elemento fieldset se usa para agrupar datos relacionados en un formulario, y el elemento
+                        legend define un título para el elemento fieldset.</p>
+                    <h3>Botón de reset</h3>
+                    <p>El input <b>type="reset"</b> crea un botón de reset que limpia todos los campos a los valores
+                        iniciales. </p>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>APUNTES</h2>
+                <div class="texto2">
+                    <h3>Sintaxis en HTML:</h3>
+                    <img src="imagenes/form_html.png" width="600" alt="">
+
+                </div>
+                <div class="imagen">
+                    <img src="imagenes/fieldset.png" width="550" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">PARA QUE SIRVEN LOS FORMULARIOS?</h2>
+                <div class="texto3">
+                    <p>Los formularios son comunmente utilizados para, vaya, pedir a los usuarios que llenen un
+                        formulario, puede ser para ingresar una tarjeta de crédito para realizar una compra, aunque eso
+                        requiere una base de datos, puede ser para solicitar un correo, que ingrese sus datos para
+                        conocer la información del usuario, su edad, por ejemplo.</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="titulo">
+                <h1 id="color">COLOR</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>REPRESENTAR COLORES EN CSS</h2>
+                <div class="texto1">
+                    <H3>Keywords</H3>
+                    <p>Podemos agregar color en css poniendo palabras claves en las funciones que nos lo permitan, por
+                        ejemplo, color o box-shadow. son bastantes los colores con palabra clave.</p>
+                    <h3>Hexadecimal</h3>
+                    <p>En las funciones que nos lo permitan, por
+                        ejemplo, color o box-shadow, podemos agragar color despúes de un "#" código hexadecimal, podemos
+                        poner tres números de dos casillas cada uno en hexadecimal, cada número representa la escala de
+                        un color, el primero es rojo, el segundo verde y el tercero es el azul, por ejemplo #00 FF 00 es
+                        color verde. #00 00 00 representa el color negro y #FF FF FF el blanco</p>
+
+                    <h3>RGB</h3>
+                    <p>Funciona igual que el hexadecimal, pero con diferente sintaxis.</p>
+                    <h3>HSL</h3>
+
+                    <p> El hsl también nos pide tres valores, en este caso, hue, saturation y lightness, o sea, tono,
+                        saturacion y brillo. la imagen de la derecha es una explicación gráfica de como interactuan esos
+                        tres propiedades de la luz. </p>
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>APUNTES</h2>
+                <div class="texto2">
+                    <p>*Cuando se crea un sitio web, la elección de colores es una tarea delicada, a pesar de parecer
+                        fácil. <br>
+                        *Seleccionar una paleta de colores correcta es importante para comunicar eficazmente el mensaje.
+                        <br>
+                        *Todos sabemos que los colores producen sensaciones que la mente humana interpreta. <br>
+                    </p>
+                    <h3>Paletas de colores</h3>
+                    <p>Aunque no hay reglas absolutas, tener en cuenta algunas pautas pueden ayudarnos a encontrar un
+                        diseño armónico. <br>
+                        <b>*colores de la misma gam cromática <br>
+                            *Colores complementarios <br>
+                            *Colores opuestos.</b>
+                    </p>
+                </div>
+                <div class="imagen">
+                    <img src="imagenes/HSL_true.jpg" width="175" alt="">
+                    <img id="triada" src="imagenes/triada.png" width="351" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">COMENTARIOS</h2>
+                <div class="texto3">
+                    <p>En escencia, se pueden hacer aberraciones con el color, pero no solo es importante que la paleta
+                        se vea bonita o interesante, la selección dependerá de lo que se busca transmitir con el
+                        proyecto, si es algo serio, infantil, una tienda, una página escolar, etc. Los colores están
+                        asociados a determinadas sensaciones, por ejemplo, si la página es para un consultorio, no
+                        utilizariamos el colores muy oscuros, utilizariamos blanco con azules, pero esas asociaciones
+                        tienen un fundamento cultural,
+                        pueden tener significados diferentes según la cultura. </p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="titulo">
+                <h1 id="especificidad">ESPECIFICIDAD CSS</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>APUNTES</h2>
+                <div class="texto1">
+                    <p>La especificidad es el medio por el cual los navegadores deciden que valores de propiedad CSS son
+                        los más relevantes para un elemento y, por lo tanto, se aplicarán.</p>
+                    <h3>Cómo se calcula la especificidad?</h3>
+                    <p>*La especificidad solo se aplica cuando el mismo elemento es el objetivo de varias declaraciones.
+                        según las reglas de CSS, los elementos dirigidos directamente siempre tendrán prioridad sobre
+                        las reglas que un elemento hereda de su antepasado. <br>
+                        *Cuando varias declaraciones tienen la misma especificidad, la última declaración encontrada en
+                        CSS se aplicará al elemento. </p>
+                    <h3>Jerarquia de especificidad</h3>
+                    <p>*Cada selector tiene su lugar en la jerarquia de especificidad. <br>
+                        <b> 1_. Estilos inline: </b> <br>
+                        Estilos en linea: un estilo en linea se adjunta directamente al elemento que se va a diseñar.
+                        <br>
+                        <b> 2_. Id's: </b> <br>
+                        Un ID es un identificador único para los elementos de la página. <br>
+                        <b> 3_. Clases, atributos y pseudo-elementos: </b> <br>
+                        Esta categoría incluye, clases, atributos y pseudoclases como: hover: focus, etc. <br>
+                        <b> 4_. Elementos y pseudo-elementos: </b> <br>
+                        Esta categoría incluye nombres de elementos y pseudoelementos como h1, div: before y :after.
+                    </p>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>REGLAS DE ESPECIFICIDAD</h2>
+                <div class="texto2">
+                    <h3>Igual especificidad</h3>
+                    <p>La última regla cuenta: si la misma regla se escribe dos veces en la hoja de estilo externa,
+                        entonces la regla inferior en la hoja de estilo está más cerca del elemento que se va a diseñar
+                        y, por lo tanto, se aplicará.</p>
+                    <h3>Selector universal</h3>
+                    <p>El selector universal y los valores heredados tienen una especificidad de 0.</p>
+                    <h3>Important</h3>
+                    <p>Cuando se usa "!important" en una declaración de estilo, esta declaración anula cualquier otra
+                        declaración.</p>
+                </div>
+                <div class="imagen">
+                    <img id="jerarquia" width="275" src="imagenes/especificidad.png" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">COMENTARIOS</h2>
+                <div class="texto3">
+                    <p>El uso de la regla "!important" es una mala práctica, solo se debe utilizar cuando algo debe ser
+                        arreglado de
+                        manera inmediata, pero aun así se debe corregir despúes</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="titulo">
+                <h1 id="tablas">TABLAS</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>APUNTES</h2>
+                <div class="texto1">
+                    <p>Las tablas HTML nos permiten organizar los datos en filas y columnas. <br>
+                        Una tabla en HTML consta de celdas de tabla dentro de filas y columnas. <br>
+                        Antes de la creación de CSS, los elementos HTML "table" eran frecuentemente utilizados para la
+                        disposición de una página. Este uso ha sido desalentado desde HTML4, y el elemento no debe ser
+                        usado para dichos fines.
+                    </p>
+                    <h3>Qué es una tabla?</h3>
+                    <p>Una tabla es un conjuto estructurado de datos distribuidos en filas y columnas. <br>
+                        Una tabla permite buscar con rapidez y facilidad valores entre diferentes tipos de datos que
+                        indiquen algún tipo de conexión. <br>
+                        Por ejemplo, una persona y su edad, o un día de la semana o el horario de una piscina municipal.
+                    </p>
+                    <h3>Elementos de la tabla</h3>
+                    <h4> *"head" - Encabezado de la tabla </h4>
+                    <h4> *"th" - Celda del encabezado de la tabla </h4>
+                    <h4> *"tbody" - Cuerpo de la tabla</h4>
+                    <h4> *"tr" - Renglón de la tabla </h4>
+                    <h4> *"td" - Celdas de datos</h4>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>SINTAXIS EN HTML</h2>
+                <div class="texto2">
+                    <img width="600" src="imagenes/table.png" alt="">
+                </div>
+                <div class="imagen">
+                    <img id="tabla" width="525" src="imagenes/tablas.jpg" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">RAWSPAN Y COLSPAN</h2>
+                <div class="texto3">
+                    <p>Rawspan indica el número de filas que ocupará la celda. Por defecto ocupa una sola fila. Colspan,
+                        indica el número de columnas que ocupará la celda. Por defecto ocupa una sola columna.</p>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="titulo">
+                <h1 id="header">HEADER</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>APUNTES</h2>
+                <div class="texto1">
+                    <h3>El header.</h3>
+                    <p>*El header es una de las partes más importantes en una página web, pues es el elemento que los
+                        usuarios visualizan en primer lugar cuando llegan al proyecto. <br><br>
+                        *Por lo tanto, la cabecera de la web debe ser ordenada y limpia para que pueda ser visualizada
+                        con un solo vistazo y no de lugar a confusión. <br><br>
+                        *Debemos tener en cuenta que el header es un espacio genérico que tendrá el mismo diseño en
+                        todas las páginas de un sitio web. <br><br>
+                        *Lo primero que debes hacer es un listado con los elementos que vas a incluir en el header de tu
+                        web de forma obligatoria, ya sea por motivos de branding, navegación u otros.
+                    <h3>Qué elementos incluir en el header?</h3>
+                    <p>Logotipo, menú, buscador, datos de contacto, redes sociales, carrito de compras, botones
+                        destacados, selector de idioma o país, formulario de suscripción, etc.</p>
+                    </p>
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>APUNTES</h2>
+                <div class="texto2">
+                    <h3>Logotipo</h3>
+                    <p>En una web no puede faltar el logotipo, sirve como guía visual para el usuario y permite reforzar
+                        la image de la marca. El logotipo en una web suele enlazar con la página de inicio.</p>
+                    <h3>Nav (menú)</h3>
+                    <p>Permite al usuario la navegación entre distintas secciones. Puede ir en el header. Sí el proyecto
+                        tiene una gran estructura o muchas categorías, en ese caso se necesitará un doble menú.</p>
+
+
+                </div>
+                <div class="imagen">
+                    <img width="550" src="imagenes/header_img.png" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">COMENTARIOS</h2>
+                <div class="texto3">
+                    <p>Los elementos que pueden formar parte del header, van a depender de los objetivos y del tipo de
+                        web.</p>
+                </div>
+            </div>
+
+        </section>
+        </section>
+        <section>
+            <div class="titulo">
+                <h1 id="footer">FOOTER</h1>
+            </div>
+
+            <div class="izquierda">
+                <h2>APUNTES</h2>
+                <div class="texto1">
+                    <h3>El footer.</h3>
+                    <p>*El footer o pie de página es una sección olvidada en muchos proyectos web, pero si es bien
+                        diseñado, puede ser muy útil y efectivo.<br><br>
+                        *El footer es un espacio genérico que suele tener el mismo diseño en todas las páginas de un
+                        sitio web. <br><br>
+                        *Planificar cada uno de los elementos que se van a incluir en el footer es parte del proceso de
+                        diseño de un proyecto web. <br><br>
+                        *Así se establecen los elementos que se van a mostrar en función de los objetivos y de la
+                        estrategía de marketing.</p>
+                    <h3>Textos legales</h3>
+                    <p>Los textos legales son los elementos obligatorios en el footer de toda web y no hay lugar para
+                        interpretaciones. La privacidad de los usuarios que visitan la web es un tema muy serio y además
+                        es obligatoria. </p>
+                    <h3>Redes sociales</h3>
+                    <p>Las redes sociales son otro de los elementos que es recomendable colocar en el footer. Permiten
+                        una vía de contacto directa entre la marca y las visitas de la web que se pueden convertir en
+                        seguidores.</p>
+
+
+
+                </div>
+            </div>
+            <div class="derecha">
+                <h2>APUNTES</h2>
+                <div class="texto2">
+                    <h3>Datos de contacto</h3>
+                    <p>Los datos de contacto son una información muy útil para que las visitas se pongan en contacto con
+                        la empresa o negocio. <br>
+                        Se pueden incluir datos como teléfono, email, dirección e incluso se puede mostrar un mapa de
+                        Google Maps.</p>
+                    <h3>Sellos de confiaza</h3>
+                    <p>El sello de confiaza es un distintivo que otorga la Asociación de Internet MX a sitios web que
+                        pertenece a empresas, organizaciones, instituciones y personas identificadas y comprometidas con
+                        la generación de confianza en líneas.</p>
+
+
+                </div>
+                <div class="imagen">
+                    <img width="550" src="imagenes/footer_img.png" alt="">
+                </div>
+            </div>
+            <div class="abajo">
+                <h2 class="resumen">SITEMAP</h2>
+                <div class="texto3">
+                    <p>Los mapas de sitio son archivos en los que se proporciona información sobre la páginas, los
+                        videos y otros archivos del sitio, así como sobre las relaciones que hay entre ellos. Los
+                        buscadors de Google leen estos archivos para rastrear los sitios de forma más eficiente.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            <div id="nombre">
+                <p>Julio Cesar Camargo Reyes <br>
+                    Introducción a HTML5 y CSS3.
+                    <br>Mtr. Adrian Alonso Duran Coronado.
+                </p>
+                <img src="imagenes/UACJ.png" width="55" alt="">
+            </div>
+
+        </footer>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
